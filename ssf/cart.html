@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart - MyShop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyShop</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-icons">
+        <button class="toggle-mode">
+          <img src="assets/icons/sun-icon.png" alt="Light Mode" class="mode-icon">
+        </button>
+        <a href="cart.html" class="cart-icon">
+          <img src="assets/icons/cart-icon.png" alt="Cart">
+          <span class="cart-count">0</span>
+        </a>
+      </div>
+      <div class="hamburger">&#9776;</div>
+    </nav>
+  </header>
+
+  
+  <main>
+    <section class="cart-section">
+      <h2>Your Cart</h2>
+      <div id="cart-items">
+       
+      </div>
+      <p id="cart-total">Total: $0.00</p>
+      <button id="checkout-button">Proceed to Checkout</button>
+    </section>
+  </main>
+
+ 
+  <footer>
+    <p>&copy; 2023 MyShop. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
