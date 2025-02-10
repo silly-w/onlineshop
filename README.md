@@ -43,7 +43,4 @@
 
 ## How to Run the Project
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/silly-w/myshop.git
-   cd myshop
+downlond the flie and open it in vs code
